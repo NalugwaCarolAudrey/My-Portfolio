@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+
+
+/* THIS IS NAV BAR */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+    background-color: rgb(165, 42, 42);
+}
+
+.navelements ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navelements ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbutton{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navbutton button{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+/* THIS IS HERO SECTION */
+.herosection{
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.herosection .herodescription{
+    width: 450px
+}
+
+.herodescription h1{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.herodescription button{
+    background: none;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.heroimage img{
+    border-radius: 20px;
+}
+
+
+/* MY WORK SECTION */
+.workmetrics{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.workmetrics h4{
+    font-size: 30px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.workmetrics .work-metrics{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.workmetrics .work-metrics h6{
+    font-size: 20px;
+}
+
+.workprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    background-color: beige;
+}
+
+.workprojects img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+/*logo section */
+
+.logoprojects{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoprojects h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.logoprojects p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-style: oblique;
+}
+
+.logoprojects button{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    margin: 10px 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.logoprojects img{
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* BRANDS SECTION */
+
+.brandprojects{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.brandprojects h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    background-color: beige;
+}
+
+.brandprojects p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-style: oblique;
+    background-color: beige;
+}
+
+.brandprojects .brand-buttons{
+    text-align: center;
+    font-size: 100%;
+    margin: 10px 0;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+.brand-buttons button{
+    padding : 10px 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.brandcard{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: 30px;
+   flex-wrap: wrap;
+   background-color: beige;
+}
+
+.brand-card img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+.brandcard button{
+    background: none;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* EXAMPLE */
+.example{
+    background-color: brown;
+    padding: 50px 80px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.example div{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.example div h5{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+}
+
+.comments h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.comments p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-style: oblique;
+}
+
+
+.comments-section{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+
+}
+
+.comments-section div{
+    background-color: beige;
+    padding: 24px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.comments-section div h4{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+/* CONTACT SECTION */
+.contact-section{
+    background-color: brown;
+    padding: 50px 80px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-section div{
+    padding: 25px;
+    border-radius: 15px;  
+}
+
+.contact-section div h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+ .contact-section div p{
+    font-size: 25px;
+ }
+
+ .copy{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width:768px){
+    .example{
+        padding: 15px 25px;
+        flex-direction: column;
+    }
+
+    .navelements{
+        display: none;
+    }
+
+    .herosection{
+        flex-direction: column-reverse;
+    }
+
+    .heroimage{
+        width: 600px;
+        height: 400px;
+    }
+
+    .workmetrics h4{
+        font-size: 14px;
+    }
+
+    .workmetrics .work-metrics h6{
+        font-size: 12px;
+    }
+
+    .workmetrics .work-metrics p{
+        font-size: 10px;
+    }
+
+    .workprojects{
+        flex-direction: column;
+    }
+
+    .workprojects img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .logoprojects h4{
+        font-size: 20px;
+    }
+
+    .logoprojects p{
+        font-size: 14px;
+    }
+    }
